@@ -7,5 +7,6 @@ class CreateInventories < ActiveRecord::Migration[5.0]
 
       t.timestamps
     end
+    add_index :inventories, :NumSerie, unique: true
   end
 end
