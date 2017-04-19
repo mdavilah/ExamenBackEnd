@@ -1,3 +1,6 @@
+User.destroy_all
+Work.destroy_all
+
 
 user1 = User.new(name: 'Jorge', email:'jorge@latam.com')
 puts user1.save
